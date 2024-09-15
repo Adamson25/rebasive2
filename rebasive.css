@@ -1,0 +1,395 @@
+body{
+    max-width: 1400px;
+    align-items: center;
+    background-color: white;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: center; */
+}
+
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('./FONT/ProtestGuerrilla-Regular.ttf' format('truetype');
+  }
+  
+   */
+
+
+
+
+nav{
+    text-decoration: none;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -35px;
+    max-width: 1440px;
+    font-size: 15px;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    max-width: 1440px;
+    padding-right: 30px;
+    
+
+}
+
+.team{
+    padding-right: 90px;
+}
+
+.join{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.join:hover{
+    background-color: rgb(33, 115, 88);
+    transition: 0.7s;
+}
+
+
+
+.text{
+    text-align: left;
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   
+}
+
+.text p  {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+
+.btn:last-child{
+    padding-top: 0;
+}
+
+
+.name1{
+    font-size: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    width:120px ;
+    height: 30px;
+    text-align: left;
+
+    float: left;
+    margin-right: 70px;
+    
+}
+
+.name2{
+    font-size: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px ;
+    height: 30px;
+    text-align: center;
+    padding-right: 3px;
+    float: left;
+    
+    
+}
+
+span{
+    color:rgb(4, 156, 125);
+}
+
+.list{ 
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-left: 30px;
+    padding: 7px;
+    background-color:rgb(4, 156, 125);
+    transition: 0.3s ease;
+    margin-top: 35px;
+    font-family: 'Courier New', Courier, monospace
+   
+}
+
+.list:hover{
+    background-color: gray;
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+.list1{
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.img1{
+   float: left;
+   padding-left: 50px;
+}
+
+#img{
+    margin-left: -50px;
+    
+}
+
+.image{
+    margin-top: -200px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.img .img1{
+    border-radius: 20px;
+       
+}
+.img{
+    margin-left: 270px;
+    margin-bottom: 220px;
+    
+}
+
+.khalifa{
+    display: block;
+}
+.khalifa img{
+    padding-left: 20px;
+
+}
+
+.pexel{
+    margin-bottom: 350px;
+}
+
+.text3{
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 650px;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.border{
+    margin-top: 270px;
+    margin-left: 110px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 1000px;
+    padding-left: 40px;
+    padding-top: 30px;
+    height: 450px;
+
+}
+
+.acc{
+    float: right;
+    margin-right: 90px;
+    margin-bottom: 20px ;
+    margin-top: -330px;
+    border: 5px solid  rgb(33, 115, 88);
+    border-radius: 15px;  
+    
+    
+
+}
+
+.part{
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: "Protest Guerrilla" , sans-serif;
+}
+
+.join2{
+    font-size: 15px;
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);  
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.join2:hover{
+    background-color:rgb(4, 156, 125);
+}
+
+.all{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.at{
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 50px;
+    
+
+}
+
+.enter{
+    padding-left: 10px;
+    font-size: 15px;
+    height: 20px; 
+    border: 1px solid rgb(255, 255, 255);  
+    width: 400px;
+    text-align: left;
+    border-radius: 30px;
+    color: white;
+    padding: 8px;
+    padding-top: 50px;
+       
+
+}
+
+.enter {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 190px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 20px;
+    
+   
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    background-color: #000000;
+    width: 250px;
+    border: 1px solid #fcfcfc;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.join3 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    right: 50px; 
+    position: absolute;
+    border: 2px solid rgb(4, 156, 125);
+    
+}
+
+.join3:hover {
+    background-color:rgb(4, 156, 125);;
+}
+
+label[for="fname"]{
+    padding-top: 10px;
+    
+}
+
+.footer2{
+    text-align: center;
+    margin-top: -170px;
+    margin-left: 40%;
+    font-size: 13px;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.footer2 {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.footer2 > div {
+    flex: 1; 
+    margin: 0 20px; 
+}
+
+.footer2 strong {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.inner {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+
+
+.address, .support, .social {
+    padding: 10px;
+    background-color: #000000;
+    font-size: 10px;
+   
+ 
+}
+
+
+
+    
+ 
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
